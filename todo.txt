@@ -1,0 +1,29 @@
+v1.0.0
+
+/update						  # post
+/change						  # patch
+/alias/{domain}/{alias} 	  # get
+/alias/{domain}/{alias} 	  # delete
+/archived					  # patch
+/analytics/status			  # patch
+/analytics/sharing			  # patch
+
+v2.0.0
+
+_get()
+
+/analytics/timing			  # get
+/analytics/general			  # get
+/analytics/popularity/weekday # get
+/analytics/popularity/hour	  # get
+/analytics/sources/top		  # get
+/analytics/languages/top	  # get
+/analytics/location/{region}  # get
+
+v3.0.0
+
+_post()
+
+/bulk						  # post
+/bulk/{bulkRequested}/status  # get
+/bulk/{bulkRequested}/report  # get
